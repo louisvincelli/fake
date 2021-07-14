@@ -1,0 +1,342 @@
+    <section class="intro">
+    <div id="lottie"></div>
+    </section> 
+    <form id="search-form" autocomplete="off" class="d-flex">
+      <div class="form-group">
+        <input id="ingredient-name" class=" searchInput form-input" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchRecipeBtn" class="btn btn-outline-success" type="submit">Search</button>
+        <button id="add-ingredient" class="btn btn-outline-success" type="submit">Add Me</button>
+      </div>
+    </form>
+{{!-- <div class="row">
+
+  <div class="col-auto">
+    {{#each users}}
+    <h2>Welcome, {{dataValues.name}}!</h2>
+    {{/each}}
+  </div>
+</div> --}}
+
+    {{!-- <form id="search-form" class="form new-recipe-form">
+      <div class="form-group">
+        <label for="ingredient-name">Ingredient:</label>
+        <input class="form-input" type="text" id="ingredient-name" name="ingredient-name" />
+      </div>
+    </form> --}}
+  {{!-- <div class="ingredient-list">
+      </div>
+  <h3>Look for a recipe:</h3>
+
+    <form class="form new-recipe-form">
+      <div class="form-group">
+        <label for="ingredient-name">Ingredients:</label>
+        <button id='searchbtn'>Search</button>
+      </div>
+    </form> 
+
+ <div>
+      <div id='recipe1div'>
+          <h2 id = 'recipe1title'></h2>
+          <img id ='recipe1image' src=''>
+          <p id='recipe1ing====redientlist'></p>
+          <p id='recipe1instructions'></p>
+      </div>
+  </div>  --}}
+
+   <div class="box1">
+      <div id="click-info" class="click-info">
+            {{#each items}}
+            {{dataValues.name}}
+            {{/each}}
+      </div>
+  </div>
+  <div id="intro1" class="intro1"></div>
+<div id="helper"></div>
+<div id="container">
+  <div class="module pink"=>
+    <div class="img  col-md-4">
+    <div class="img-card">
+      <h1 class="recipes-title">Recipes</h1>
+      <i class="fas fa-arrow-right"></i>
+  </div>
+  </div>
+</div>
+
+
+  <div class="module pink">
+    <div class="img  col-md-4">
+    <div class="img-card">
+      <h1>Shako</h1>
+    <img class="img-size" src="../img/vegetable-10.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+  </div>
+
+  </div>
+</div>
+  <div class="module yellow">
+    <div class="img  col-md-4">
+    <div class="img-card">
+      <h1>Shako</h1>
+    <img class="img-size" src="../img/vegetable-9.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+    <span>Mojito</span><br>
+  </div>
+  </div></div>
+  <div class="module purple"> <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Shake</h1>
+    <img class="img-size" src="./img/vegetable-9.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+    <span>Oreo</span><br>
+  </div>
+
+  </div></div>
+  <div class="module orange">                <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Make</h1>
+    <img class="img-size" src="./img/vegetable-7.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+  </div>
+
+  </div></div>
+  <div class="module blue">
+    <div class="img col-md-4">
+      <div class="img-card">
+        <h1>Make</h1>
+      <img class="img-size" src="./img/vegetable-6.jpg" alt="">
+    </div>
+    <div class="recipe-info">
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+    </div>
+
+    </div>
+  </div>
+  <div class="module blue">
+    <div class="img col-md-4">
+      <div class="img-card">
+        <h1>Make</h1>
+      <img class="img-size" src="./img/vegetable-6.jpg" alt="">
+    </div>
+    <div class="recipe-info">
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+    </div>
+
+    </div>
+  </div>
+  <div class="module blue">
+    <div class="img col-md-4">
+      <div class="img-card">
+        <h1>Make</h1>
+      <img class="img-size" src="./img/vegetable-6.jpg" alt="">
+    </div>
+    <div class="recipe-info">
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+      <span>M%M</span><br>
+    </div>
+
+    </div>
+  </div>
+  <div class="module red">                
+    <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Make</h1>
+    <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+  </div>
+  </div>
+</div>
+  <div class="module red">                
+    <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Make</h1>
+    <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+  </div>
+  </div>
+</div>
+  <div class="module red">                
+    <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Make</h1>
+    <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+  </div>
+  </div>
+</div>
+  <div class="module red">                
+    <div class="img col-md-4">
+    <div class="img-card">
+      <h1>Make</h1>
+    <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+  </div>
+  <div class="recipe-info">
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+    <span>M%M</span><br>
+  </div>
+  </div>
+</div>
+<div class="module red">                
+  <div class="img col-md-4">
+  <div class="img-card">
+    <h1>Make</h1>
+  <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+</div>
+<div class="recipe-info">
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+</div>
+</div>
+</div>
+<div class="module red">                
+  <div class="img col-md-4">
+  <div class="img-card">
+    <h1>Make</h1>
+  <img class="img-size" src="./img/vegetable-5.jpg" alt="">
+</div>
+<div class="recipe-info">
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+  <span>M%M</span><br>
+</div>
+</div>
+</div>
+</div>
+
+  {{!-- {{#if recipes.length}}
+  <div class="col-md-6 recipe-list">
+    <h3>Recipes:</h3>
+
+    {{#each recipes as |recipes|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/profile/{{favorite.id}}">{{favorite.title}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{favorite.id}}">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}} --}}
+
+</div>
+ <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+          integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"
+          integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+          crossorigin="anonymous"
+        ></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js'></script>
+<script src="./js/homepage.js"></script>

@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Pacifico&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(0, 0, 0) !important;
+  display: flex;
+  flex-direction: column;
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 1em;
+  overflow-x: hidden;
+  height: 350vw;
+}
+h1,
+span {
+  font-family: "Encode Sans SC", sans-serif;
+}
+/* ================= */
+/* ================= */
+/* ================= */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.26);
+  z-index: 2;
+}
+.background-randomImg {
+  height: 100vh;
+  width: 100%;
+  max-width: 30%;
+}
+
+/* ================= */
+/* left-side/
+/* ================= */
+.background-left-side {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.avocado {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.avocado-1 {
+  padding-top: 100px;
+  width: 100px;
+  transform: rotate(30deg);
+}
+.avocado-2 {
+  width: 100px;
+}
+
+.soup-2 {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+}
+
+.sweet-1 {
+  position: absolute;
+  width: 70%;
+  top: 600px;
+}
+/* ================= */
+/* Middle */
+/* ================= */
+.burger-1 {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+}
+.soup-4 {
+  position: absolute;
+  width: 300px;
+  left: 60%;
+  top: 850px;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* ================= */
+/* right-side*/
+/* ================= */
+.backgrond-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.spice-1 {
+  position: absolute;
+  left: 1600px;
+  top: 100px;
+}
+.soup-3 {
+  position: absolute;
+  width: 40%;
+  left: 1500px;
+  top: 200px;
+}
+.mint-1 {
+  width: 120%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  left: 1000px;
+  top: 500px;
+}
+
+/* ================= */
+/* ================= */
+/* ================= */
+
+.box {
+  background-color: rgb(0, 0, 0) !important;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blocks {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Pacifico", cursive;
+  font-size: 4em;
+  color: #ffd52d;
+  z-index: 2;
+}
+
+.navlist ul {
+  display: flex;
+}
+.navlist ul li {
+  margin-left: 20px;
+}
+.navlist ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 3.5em;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* #lottie {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.intro {
+  z-index: -4;
+  margin: 0 !important;
+  width: 100% !important;
+  padding: 0 !important;
+} */
+
+/* Animate scroll down */
+
+/* Login form */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.login-section {
+  height: 100vh;
+  color: #ffffff;
+  position: relative;
+  background-color: black;
+}
+.CreatingAndLoginIn {
+  position: absolute;
+  z-index: 3;
+  background-color: rgb(255, 255, 255);
+  left: 55%;
+  top: 1%;
+  height: 60%;
+  width: 30%;
+  border-radius: 5px;
+  color: black;
+}
+.not-active {
+  display: none;
+}
+.panel__content {
+  padding: 20%;
+  line-height: 50px;
+}
+.input-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+#signup .input--name {
+  border-color: black;
+  border-radius: 20px 20px 0 0px;
+  border: 1px soild;
+}
+#signup .input--email {
+  border-radius: 0;
+  border: 1px soild;
+  border-style: solid;
+}
+.input--email {
+  border: 1px soild;
+  border-color: black;
+  border-radius: 20px 20px 0 0px;
+  border-style: solid;
+}
+.input--password {
+  border-color: black;
+  border-radius: 0 0 20px 20px;
+  border-style: solid;
+}
+.both-logIn-signIn-card {
+  font-family: Montserrat;
+  position: relative;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: 50%;
+  margin: 50px auto;
+  color: rgba(0, 0, 0, 0.753);
+  font-size: 1rem;
+  border-radius: 5px;
+  text-align: left;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.signIn-H1,
+.signIn-P,
+.signup {
+  margin-top: 20px;
+  margin-left: 280px;
+  max-width: 300px;
+}
+.logIn-H1,
+.logIn-P,
+.login {
+  margin-top: 20px;
+  margin-left: 220px;
+  max-width: 300px;
+}
+
+.both-logIn-signIn-card .first-img {
+  position: absolute;
+  top: 0;
+  width: 28%;
+  left: 0px;
+  z-index: -2;
+}
+.both-logIn-signIn-card .secound-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+/* Home Page */
+.section-recipe {
+  position: relative;
+  margin-top: -200px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  display: inline-flex;
+  padding: 5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-size {
+  max-width: 200px;
+}
+.recipe-info {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+#helper {
+  position: absolute;
+  top: 50vw;
+  left: 0;
+}
+
+#container {
+  height: 100vh;
+  position: fixed;
+  top: 400px;
+  white-space: nowrap;
+  font-size: 0;
+  z-index: -99;
+  color: white;
+  margin-left: 300px;
+}
+#container > * {
+  font-size: 1rem;
+}
+
+#intro1 {
+  position: absolute;
+  left: 0;
+  top: 1000px;
+  z-index: 10;
+  width: 50%;
+  height: 100%;
+}
+
+.recipes-title {
+  font-size: 5.5em;
+  color: white;
+  margin-left: 40px;
+}
+
+.module {
+  height: 100vh;
+  width: 20vw;
+  display: inline-flex;
+}
+.box1 {
+  position: absolute;
+  top: 12%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #ffd52d;
+  transition: 0.2s;
+}
+.box1:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+/* ========================== */
+/* =====Profile Section====== */
+/* ========================== */
+.profile-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  color: white;
+}
+.recipes-title-profile {
+  font-size: 5.5em;
+  color: white;
+  margin-left: 40px;
+}
+.module-profile {
+  width: 20vw;
+  display: inline-flex;
+}
+
+.img-profile {
+  display: inline-flex;
+  padding: 5%;
+  width: 100vw;
+}
+
+.img-size-profile {
+  max-width: 200px;
+}
+.recipe-info-profile {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+/* ========================== */
+/* =====Search Bar====== */
+/* ========================== */
+
+#search-form {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-group {
+  display: flex;
+}
+
+.click-info {
+  display: none;
+  text-align: center;
+  background: #000000;
+  width: 100%;
+  height: 50vh;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.module-search {
+  width: 20vw;
+  margin-left: 40px;
+  display: inline-flex;
+}
+
+.img-search {
+  display: inline-flex;
+  padding: 5%;
+  max-width: 5%;
+}
+
+.img-size-search {
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  background-size: cover;
+}
+.recipe-info-search {
+  padding-top: 50px;
+  padding-left: 20px;
+}

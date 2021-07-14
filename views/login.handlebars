@@ -1,0 +1,179 @@
+{{!-- <div class="row">
+  <div class="col-md-6">
+    <h2>Login</h2>
+
+    <form class="form login-form">
+      <div class="form-group">
+        <label for="email-login">email:</label>
+        <input class="form-input" type="text" id="email-login" />
+      </div>
+      <div class="form-group">
+        <label for="password-login">password:</label>
+        <input class="form-input" type="password" id="password-login" />
+      </div>
+      <div class="form-group">
+        <button
+          class="btn btn-primary"
+          id="loginbtn"
+          type="submit"
+        >login</button>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-6">
+    <h2>Signup</h2>
+
+    <form class="form signup-form">
+      <div class="form-group">
+        <label for="name-signup">name:</label>
+        <input class="form-input" type="text" id="name-signup" />
+      </div>
+      <div class="form-group">
+        <label for="email-signup">email:</label>
+        <input class="form-input" type="text" id="email-signup" />
+      </div>
+      <div class="form-group">
+        <label for="password-signup">password:</label>
+        <input class="form-input" type="password" id="password-signup" />
+      </div>
+      <div class="form-group">
+        <button
+          class="btn btn-primary"
+          id="signupbtn"
+          type="submit"
+        >signup</button>
+      </div>
+    </form>
+  </div>
+</div> --}}
+    {{!-- <div class="overlay"></div> --}}
+    <div class="background-randomImg">
+      <div class="background-left-side">
+        <div class="avocado">
+          <img
+            class="avocado-1"
+            src="https://d2kq0urxkarztv.cloudfront.net/5f3ecbb7ed1d500086c8743d/2138197/upload-53db1bcb-d1dd-4461-8bae-2fc9584943ea.png?w=226&e=webp&nll=true%202x"
+            alt=""
+          />
+          <img
+            class="avocado-2"
+            src="https://d2kq0urxkarztv.cloudfront.net/5f3ecbb7ed1d500086c8743d/2138197/upload-53db1bcb-d1dd-4461-8bae-2fc9584943ea.png?w=226&e=webp&nll=true%202x"
+            alt=""
+          />
+        </div>
+        <div>
+          <img class="soup-2 soup" src="./img/soup-2.png" alt="" />
+          <img class="sweet-1 plate" src="./img/sweet-1.png" alt="" />
+        </div>
+      </div>
+      <div class="background-middle">
+        <img class="burger-1 plate" src="./img/burger-dish.png" alt="" />
+        <img class="soup-4 soup" src="./img/soup-4.png" alt="" />
+      </div>
+      <div class="backgrond-right-side">
+        <img class="soup-3 soup" src="./img/soup-3.png" alt="" />
+      </div>
+    </div>
+    <div class="social"></div>
+
+    <!-- <section class="intro">
+      <div id="lottie"></div>
+    </section> 
+    <div class="scrolldown">
+      <a href="#login" class="scroll-down" address="true"
+        ><span></span>Scroll</a
+      >
+    </div>  -->
+
+    <section id="login" class="login-section">
+      <div class="CreatingAndLoginIn">
+        <div class="panel panel--sliding">
+          <div id="signup-inputs" class="panel__content signupNow not-active">
+            <h1 class="panel__heading">Sign up</h1>
+            <form id="signup" class="input-Info">
+              <input
+                id="name-signup"
+                type="text"
+                placeholder="Full name"
+                class="input input--name form-input"
+              />
+              <input
+                id="email-signup" 
+                type="email"
+                placeholder="  Email"
+                class="input input--email form-input"
+              />
+              <input
+              id="password-signup"
+                type="password"
+                placeholder="  Password"
+                class="input input--password form-input"
+              />
+              <button id="signupbtn" type="submit" class="btn btn--primary">Sign up</button>
+            </form>
+          </div>
+
+          <div id="login-inputs" class="panel__content loginNow">
+            <h1 class="panel__heading">Log in</h1>
+            <form id="form-login" class="input-Info">
+              <input
+                id="email-login"
+                type="email"
+                placeholder="  Email"
+                class="input input--email"
+              />
+              <input
+                id="password-login"
+                type="password"
+                placeholder="  Password"
+                class="input input--password form-input"
+              />
+              <button type="submit" id="loginbtn" class="btn btn--primary">Log in</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="both-logIn-signIn-card">
+        <div class="signIn-text">
+          <img class="first-img" src="./img/vegetable-1.jpg" />
+          <h1 class="signIn-H1">Don't have an account?</h1>
+          <p class="signIn-P">
+            Ethical celiashtag taxide jean shorts selvage meggings
+          </p>
+          <button type="button" class="btn btn--secondary signup">
+            Sign up
+          </button>
+        </div>
+        <div class="logIn-text">
+          <img class="secound-img" src="./img/vegetable-6.jpg" />
+          <h1 class="logIn-H1">Have an account?</h1>
+          <p class="logIn-P">
+            Ethical celiac hashtag ta kombucha jean shorts selvage meggings.
+          </p>
+          <button type="button" class="btn btn--secondary login">Log in</button>
+        </div>
+      </div>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+  integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"
+  integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"
+></script>
+<script src="./js/login.js"></script>
