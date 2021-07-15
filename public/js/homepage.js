@@ -77,7 +77,7 @@ async function searchRecipes(event) {
   RECIPE_URL =
     "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients?ingredients=" +
     urlString +
-    "&number=10&ignorePantry=true&ranking=1";
+    "&number=8&ignorePantry=true&ranking=1";
   console.log(RECIPE_URL);
   const recipesObj = await getData(RECIPE_URL, SPOON_HOST);
   console.log(recipesObj);
@@ -86,7 +86,7 @@ async function searchRecipes(event) {
   // UPDATE UI WITH INGREDIENT IMG & NAME DATA
   recipesObj.forEach((recipe) => {
     let img = recipe.image;
-    app.innerHTML += `
+    $("#container").append(`
     <div class="module pink">
       <div class="img  col-md-4">
         <div class="img-card">
@@ -94,17 +94,14 @@ async function searchRecipes(event) {
           <img class="img-size" src=${img} alt="">
         </div>
         <div class="recipe-info">
-          <span>${recipe.usedIngredients.name}</span><br>
-          <span>${recipe.usedIngredients.name}</span><br>
-          <span>${recipe.usedIngredients.name}</span><br>
-          <span>M%M</span><br>
-          <span>M%M</span><br>
-          <span>M%M</span><br>
-          <span>M%M</span><br>
-          <span>M%M</span><br>
+          <span>${recipe.usedIngredients[0].name}</span><br>
+          <span>${recipe.usedIngredients[1].name}</span><br>
+          <span></span><br>
+          <span></span><br>
+          <span></span><br>
         </div>
     </div>
-    </div>`;
+    </div>`);
   });
 }
 const runApiQueries = async (search) => {
